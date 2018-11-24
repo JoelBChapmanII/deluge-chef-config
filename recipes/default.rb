@@ -15,7 +15,7 @@ end
 user 'deluge' do
   system true
   manage_home true
-  home 'home/deluge'
+  home '/home/deluge'
   shell '/bin/false'
 end
 
