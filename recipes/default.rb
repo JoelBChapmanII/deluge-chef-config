@@ -13,6 +13,7 @@ package 'deluge package' do
 end
 
 user 'deluge' do
+  action :create
   system true
   manage_home true
   home '/home/deluge'
