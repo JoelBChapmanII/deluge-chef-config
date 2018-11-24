@@ -5,9 +5,9 @@ provisioner:
    name: chef_zero
 
 platforms:
-   - name: ubuntu-18.04
+   - name: ubuntu-16.04
 
 suites:
   - name: default
     run_list:
-      - recipe[deluge-chef-config::default]
+      - recipe[nameserver-chef-config::default]
